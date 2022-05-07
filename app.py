@@ -62,8 +62,8 @@ class Gestionnaire_Password():
             with open(self.passwordFile + "password.txt", "wb") as file_data:
                 file_data.write(data_decrypt)
                 file_data.close()
-        except:
-            print("Une erreur est survenue !!!")
+        except ValueError:
+            print("Mauvaise clé de chiffrement")
 
     def generatePassword(self, lenght, login):
         ascii_letter = string.ascii_letters
@@ -77,3 +77,5 @@ class Gestionnaire_Password():
         
 
 Gestionnaire = Gestionnaire_Password("URL")
+Gestionnaire.createKey()
+Gestionnaire.decryptFile()

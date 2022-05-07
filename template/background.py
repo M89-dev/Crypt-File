@@ -17,3 +17,4 @@ def run():
     
     py.quit()
 
+run()
