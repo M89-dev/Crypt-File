@@ -16,7 +16,7 @@ def open_cryp():
     
 
 # récupérer l'image dans une variable
-pic =PhotoImage(file="C:\\Users\\berry\\OneDrive\\Documents\\NSI\\Crypt-File\\template\\lock2.png")
+pic =PhotoImage(file="C:\\Users\\Rémi\\Desktop\\Crypt-File\\template\\lock2.png")
 # affiche l'image
 a_pic = Label(app, image=pic,).grid(row=0, column=1)
 # Titre
