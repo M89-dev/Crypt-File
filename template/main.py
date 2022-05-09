@@ -1,7 +1,6 @@
 from tkinter import *
 
 from setuptools import Command
-import background as bk
 import pygame as py
 from cryptage import *
 
