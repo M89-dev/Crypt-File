@@ -77,5 +77,4 @@ class Gestionnaire_Password():
         
 
 Gestionnaire = Gestionnaire_Password("URL")
-Gestionnaire.createKey()
 Gestionnaire.decryptFile()
